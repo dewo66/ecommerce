@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+/* category-filter.css */
+
+/* Genel stil */
+.category-filter-select-dropdown {
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Dropdown menüsü */
+.category-filter-select-dropdown .ant-select-dropdown {
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Seçenekler */
+.category-filter-select-dropdown .ant-select-item {
+  padding: 8px 16px;
+}
+
+/* Seçili seçenek */
+.category-filter-select-dropdown .ant-select-item-option-selected {
+  background-color: #f0f0f0;
+}
+
+/* Hover durumu */
+.category-filter-select-dropdown .ant-select-item-option:hover {
+  background-color: #fafafa;
+}
